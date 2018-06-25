@@ -80,7 +80,7 @@
   margin-top: 100px;
   background: #F9F9F9;
   padding-top: 50px;
-  padding-bottom: 70px;
+  padding-bottom: 20px;
   border-top: 1px solid #F0F0F0;
 
   h4 {
@@ -155,9 +155,19 @@
     margin-top: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 13px;
+    font-size: 17px;
     margin-bottom: 45px;
     font-weight: 500;
+  }
+
+  p {
+    padding-top: 5px;
+    font-size: 12px;
+    text-align: center;
+    margin: 0 3px;
+    top: 2px;
+    color: #011627;
+    letter-spacing: 1px;
   }
 }
 
