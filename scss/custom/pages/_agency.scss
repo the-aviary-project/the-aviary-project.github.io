@@ -1,10 +1,11 @@
 .agency-hero {
   min-height: 100vh;
   position: relative;
-  background-image: url('#{$imagesPath}/graphics/hero-01.jpg');
+  background-image: url('#{$imagesPath}/tap/city.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+
 
   @media(max-width: 1024px) {
     background-attachment: inherit;
@@ -115,7 +116,7 @@
   p {
     text-align: center;
     font-size: 16px;
-    color: #454545;
+    color: #0d152c;
     width: 65%;
     margin: auto;
     line-height: 29px;
@@ -234,7 +235,7 @@
 }
 
 .agency-testimonial {
-  margin-top: 120px;
+  margin-top: 80px;
 
   .quote {
     text-align: center;
@@ -244,7 +245,7 @@
     position: relative;
     font-weight: 300;
     line-height: 40px;
-    color: #2381B8;
+    color: #0d152c;
 
     @media(max-width: 767px) {
       width: 90%;
@@ -257,14 +258,15 @@
       font-size: 59px;
       position: absolute;
       top: 9px;
-      color: #55a2ce;
+      color: #ffb303;
       left: -25px;
     }
   }
 
   .author {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
 
     img {
       border-radius: 50%;
@@ -275,7 +277,7 @@
       display: inline-block;
       margin-left: 15px;
       font-size: 16px;
-      color: #555;
+      color: #0d152c;
       position: relative;
       top: 12px;
 
