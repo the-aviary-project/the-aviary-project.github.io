@@ -358,9 +358,9 @@
 }
 
 .agency-footer {
-  margin-top: 200px;
+  margin-top: 0px;
   padding: 70px 0 90px;
-  background: #353D4D;
+  background: #ffffff;
   position: relative;
 
   @media(max-width: 767px) {
@@ -385,7 +385,7 @@
     height: 50px;
     font-size: 12px;
     letter-spacing: 1px;
-    background: #fff;
+    background: #ffb303;
     padding-left: 2px;
     padding-top: 8px;
     border-radius: 50%;
@@ -400,7 +400,7 @@
   }
 
   h4 {
-    color: #fff;
+    color: #0d152c;
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
@@ -409,7 +409,7 @@
   }
 
   a.legal {
-    color: #AFB9CB;
+    color: #0d152c;
     display: block;
     margin-top: 35px;
     font-size: 14px;
@@ -422,7 +422,7 @@
   }
 
   p {
-    color: #AFB9CB;
+    color: #0d152c;
     margin-top: 35px;
     font-size: 14px;
     font-family: $merriweather;
