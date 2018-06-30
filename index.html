@@ -264,19 +264,84 @@
     </div>
   </div>
 
-  <div class="agency-testimonial">
-    <div class="container">
-      <div class="quote">
-        <span class="quote-mark">&#8220;</span>
-        I think it will happen faster than any of us understand. Real prototype vehicles are being built right now. So the technology is very doable.
-      <div class="author">
-        <!-- img src="images/tap/Boeing-LOGO.png"/> -->
-        <span class="name">
-          Dennis Muilenberg, CEO at Boeing
-        </span>
+  <div class="spacial-client-quotes">
+    <section class="container">
+      <h2>
+        Sharing vision with the world's transportation leaders
+      </h2>
+
+      <div class="client-quotes">
+        <div class="client-quote active">
+          <div class="quote">
+            "eVTOLs will make our lives easier, our commutes shorter and our cities cleaner."
+          </div>
+          <div class="author">
+            <span class="name">Mark Moore</span>
+            <span class="role">Head of Engineering, Uber Elevate</span>
+          </div>
+        </div>
+        <div class="client-quote">
+          <div class="quote">
+            "I think it will happen faster than any of us understand."
+          </div>
+          <div class="author">
+            <span class="name">Dennis Muilenburg</span>
+            <span class="role">CEO, The Boeing Company</span>
+          </div>
+        </div>
+        <div class="client-quote">
+          <div class="quote">
+            "We are at the dawn of an entire new industry!"
+          </div>
+          <div class="author">
+            <span class="name">Daniel Wiegand</span>
+            <span class="role">CEO, Lilium Aviation</span>
+          </div>
+        </div>
+        <div class="client-quote">
+          <div class="quote">
+            "In the past century, flight connected our planet. In the next, it will reconnect our local communities."
+          </div>
+          <div class="author">
+            <span class="name">Rodin Lyasoff</span>
+            <span class="role">CEO, A^3 by Airbus</span>
+          </div>
+        </div>
       </div>
-    </div>
+
+      <div class="client-pictures">
+        <div class="client-picture active">
+          <img src="images/tap/MM.jpg">
+        </div>
+        <div class="client-picture">
+          <img src="images/tap/DM.jpg">
+        </div>
+        <div class="client-picture">
+          <img src="images/tap/DW.jpg">
+        </div>
+        <div class="client-picture">
+          <img src="images/tap/RL.jpg">
+        </div>
+      </div>
+    </section>
   </div>
+
+  <script type="text/javascript">
+    $(function () {
+      var $quotes = $('.client-quote')
+      var $faces = $('.client-picture')
+
+      $faces.click(function (e) {
+        index = $faces.index(this)
+
+        $quotes.removeClass('active')
+        $quotes.eq(index).addClass('active')
+
+        $faces.removeClass('active')
+        $(this).addClass('active')
+      })
+    })
+  </script>
 
   <div class="typeform-widget" data-url="https://skyscape2.typeform.com/to/iEWmka" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 0px;"><a href="https://admin.typeform.com/signup?utm_campaign=iEWmka&utm_source=typeform.com-11656059-Basic&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=EN" style="color: #999" target="_blank"></a> 
   </div>
