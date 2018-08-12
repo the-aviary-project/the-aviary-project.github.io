@@ -25,7 +25,7 @@
 }
 
 .event-hero {
-  background-image: url('#{$imagesPath}/unsplash/aranxa-esteve-130749.jpg');
+  background-image: url('#{$imagesPath}/tap/city.jpg');
   background-size: cover;
   background-position: center center;
   min-height: 540px;
@@ -86,19 +86,19 @@
 }
 
 .btn-get-tickets {
-  border: 2px solid #7a37a2;
+  border: 2px solid #0D152C;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600;
   padding: 16px 30px;
   border-radius: 60px;
-  color: #7a37a2;
+  color: #0D152C;
   display: inline-block;
 
   @include transition(all .2s);
 
   &:hover {
-    background: #7a37a2;
+    background: #0D152C;
     color: #fff;
   }
 
