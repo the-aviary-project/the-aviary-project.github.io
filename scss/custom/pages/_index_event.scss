@@ -1,5 +1,5 @@
 .event-bg {
-  background: #F4F6F2;
+  background: #fff;
 }
 
 .event-title {
@@ -25,18 +25,18 @@
 }
 
 .event-hero {
-  background-image: url('#{$imagesPath}/tap/city_small.jpg');
+  background-image: url('#{$imagesPath}/tap/london_bcg.png');
   background-size: cover;
   background-position: center center;
-  min-height: 540px;
+  min-height: 680px;
   position: relative;
 
   @media(max-width: 991px) {
-    min-height: 480px;
+    min-height: 600px;
   }
 
   @media(max-width: 767px) {
-    min-height: 370px;
+    min-height: 600px;
   }
 
   .container {
@@ -52,20 +52,29 @@
     left: 0;
     top: 0;
     z-index: 0;
-    background: linear-gradient(150deg,rgba(111, 32, 154, 0.19) 0,rgba(227, 249, 47, 0.15) 100%);
   }
 
   h2 {
     color: #fff;
     text-align: center;
-    padding-top: 240px;
+    padding-top: 310px;
     font-size: 2.9rem;
     text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
     @media(max-width: 767px) {
-      padding-top: 100px;
+      padding-top: 150px;
       font-size: 2.2rem;
     }
+  }
+
+  h4 {
+    color: #fff;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 1.3rem;
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
   }
 
   .tickets {
@@ -81,6 +90,7 @@
     p {
       color: #1D1D1F;
       font-size: 16px;
+      font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     }
   }
 }
@@ -94,6 +104,7 @@
   border-radius: 60px;
   color: #0D152C;
   display: inline-block;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
   @include transition(all .2s);
 
@@ -117,6 +128,7 @@
   .event-title {
     @media(min-width: 992px) {
       width: 80%;
+      font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     }
 
     &:after {
@@ -128,6 +140,7 @@
   p {
     color: #363841;
     line-height: 21px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
     @media(min-width: 992px) {
       width: 80%;
@@ -136,7 +149,8 @@
 }
 
 .event-speakers {
-  margin-top: 180px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 
   @media(max-width: 991px) {
     margin-top: 80px;
@@ -144,6 +158,15 @@
 
   .event-title {
     margin-bottom: 90px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  }
+
+  p {
+    color: #0D152C;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 1.3rem;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
   }
 
   .speaker {
@@ -186,7 +209,8 @@
 }
 
 .event-schedule {
-  margin-top: 120px;
+  margin-top: 80px;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
   @media(max-width: 991px) {
     margin-top: 80px;
@@ -194,6 +218,7 @@
 
   .event-title {
     margin-bottom: 30px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
     &:after {
       display: none;
@@ -271,6 +296,7 @@
 
 .event-tickets {
   margin-top: 120px;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
   @media(max-width: 991px) {
     margin-top: 80px;
@@ -278,6 +304,7 @@
 
   .event-title {
     margin-bottom: 80px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
   }
 
   .ticket {
@@ -298,7 +325,16 @@
   .ticket-title {
     text-align: center;
     font-size: 29px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+  }
+
+  .title-time {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 3px;
+    color: #FFB303;
+    font-weight: 800;
+    letter-spacing: 2px;
   }
 
   h5 {
@@ -307,7 +343,7 @@
 }
 
 .event-location {
-  margin-top: 120px;
+  margin-top: 80px;
 
   @media(max-width: 991px) {
     margin-top: 80px;
@@ -315,6 +351,7 @@
 
   .event-title {
     margin-bottom: 80px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
   }
 
   .address-container {
@@ -359,8 +396,9 @@
 }
 
 .event-sponsors {
-  margin-top: 130px;
-  margin-bottom: 160px;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
   @media(max-width: 991px) {
     margin-top: 80px;
@@ -368,6 +406,14 @@
 
   .event-title {
     margin-bottom: 80px;
+  }
+
+  p {
+    color: #0D152C;
+    text-align: center;
+    padding-top: 1px;
+    font-size: 1.3rem;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
   }
 
   img {
