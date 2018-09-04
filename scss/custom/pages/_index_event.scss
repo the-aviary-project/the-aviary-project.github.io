@@ -276,15 +276,15 @@
       content: '';
       width: 11px;
       height: 11px;
-      border: 1px solid #854bde;
-      background: #F4F6F2;
+      border: 1px solid #0D152C;
+      background: #0D152C;
       border-radius: 100%;
       display: block;
       position: absolute;
       bottom: 3px;
       left: 138px;
     }
-
+    
     .time {
       display: inline-block;
       width: 40%;
@@ -346,10 +346,15 @@
   h5 {
     margin-top: 45px;
   }
+
+  li {
+    font-size: 13px;
+  }
 }
 
 .event-location {
   margin-top: 80px;
+  margin-bottom: 80px;
 
   @media(max-width: 991px) {
     margin-top: 80px;
