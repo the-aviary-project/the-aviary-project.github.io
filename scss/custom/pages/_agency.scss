@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
 
   @media(max-width: 1024px) {
@@ -74,22 +75,50 @@
     }
   }
 
+  h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    margin-top: 30px;
+    width: 80%;
+    margin: 30px auto;
+    border: 1px solid #fff;
+    padding: 11px 22px;
+    border-radius: 63px;
+
+    @include animationDelay(.4s);
+
+    @media(max-width: 991px) {
+      font-size: 30px;
+      width: 90%;
+    }
+
+    @media(max-width: 767px) {
+      width: 100%;
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+
   a {
     display: inline-block;
     margin: 0 auto;
     color: #fff;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 11px;
+    font-weight: 600;
+    font-size: 12px;
     letter-spacing: 1px;
-    border: 1px solid #fff;
+    border: 1px solid #FFB303;
     padding: 11px 22px;
     border-radius: 63px;
-    
+    margin-top: 30px;
+
     @include animationDelay(.4s);
 
     &:hover {
-      background: #fff;
+      background: #FFB303;
       color: #222;
       text-decoration: none;
     }
@@ -97,7 +126,8 @@
 }
 
 .agency-intro {
-  margin-top: 90px;
+  margin-top: 70px;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
   h3 {
     text-align: center;
@@ -364,6 +394,7 @@
   padding: 70px 0 90px;
   background: #ffffff;
   position: relative;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
   @media(max-width: 767px) {
     margin-top: 130px;
@@ -406,8 +437,8 @@
     text-transform: uppercase;
     font-weight: 400;
     letter-spacing: 3px;
-    font-family: $lato;
     font-size: 16px;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
   }
 
   a.legal {
@@ -415,7 +446,7 @@
     display: block;
     margin-top: 35px;
     font-size: 14px;
-    font-family: $merriweather;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     line-height: 28px;
 
     & + .legal {
@@ -427,14 +458,14 @@
     color: #0d152c;
     margin-top: 35px;
     font-size: 14px;
-    font-family: $merriweather;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
     line-height: 28px;
   }
 
   a.social {
     width: 30px;
     height: 30px;
-    background: #BABFCD;
+    background: #0D152C;
     display: inline-block;
     border-radius: 50%;
     position: relative;
@@ -443,7 +474,7 @@
     @include transition(all .2s);
 
     &:hover {
-      background: #fff;
+      background: #FFB303;
     }
 
     &.first {
@@ -452,7 +483,7 @@
 
     i {
       position: absolute;
-      color: #3F4552;
+      color: #fff;
       font-size: 19px;
 
       &.fa-facebook {
@@ -471,6 +502,16 @@
       }
 
       &.fa-github {
+        top: 6px;
+        left: 7px;
+      }
+
+      &.fa-linkedin {
+        top: 6px;
+        left: 7px;
+      }
+
+      &.fa-medium {
         top: 6px;
         left: 7px;
       }

@@ -44,6 +44,7 @@ body {
       font-weight: 500;
       font-size: 13px;
       color: rgba(0, 0, 0, 0.6);
+      font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
       @include transition(color .15s linear);
 
@@ -73,6 +74,30 @@ body {
           &:hover {
             color: #333;
             border-color: #444;
+          }
+
+          &:active {
+            @include transform(scale(0.93));
+          }
+        }
+      }
+
+      &--rounded-yellow {
+        @media(min-width: 992px) {
+          text-transform: capitalize;
+          border: 1px solid #FFB303;
+          color: rgba(0, 0, 0, 0.6);
+          border-radius: 25px;
+          margin-left: 20px;
+          margin-top: 22px;
+          padding: 8px 15px 9px;
+
+          @include transition(all .15s ease-out);
+
+          &:hover {
+            color: #0D152C;
+            border-color: #FFB303;
+            background: #FFB303;
           }
 
           &:active {
