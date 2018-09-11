@@ -447,6 +447,7 @@
     font-size: 13px;
     color: #4E7198;
     letter-spacing: 1px;
+    font-weight: 500;
   }
 
   .client-quotes {
@@ -478,6 +479,7 @@
         margin: 0 auto;
         line-height: 37px;
         color: #4a5879;
+        font-weight: 500;
 
         @media(max-width: 767px) {
           width: auto;
@@ -490,6 +492,7 @@
       .author {
         margin-top: 35px;
         font-size: 17px;
+        font-weight: 400;
 
         .name {
           color: #4a5879;

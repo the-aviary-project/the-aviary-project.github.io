@@ -157,18 +157,30 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 17px;
-    margin-bottom: 45px;
+    margin-bottom: 50px;
     font-weight: 500;
   }
 
   p {
-    padding-top: 5px;
+    padding-top: 10px;
     font-size: 12px;
     text-align: center;
     margin: 0 3px;
     top: 2px;
     color: #011627;
     letter-spacing: 1px;
+    font-weight: 400;
+  }
+
+  .title {
+    padding-top: 1px;
+    font-size: 10px;
+    text-align: center;
+    margin: 0 3px;
+    top: 2px;
+    color: #011627;
+    letter-spacing: 1px;
+    font-weight: 400;
   }
 }
 
