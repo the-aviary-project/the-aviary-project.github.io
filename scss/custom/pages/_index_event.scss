@@ -115,11 +115,12 @@
     color: #fff;
   }
 
-  @media(max-width: 767px) {
+  @media(max-width: 997px) {
     margin-bottom: 20px;
-    padding: 16px 30px;
+    padding: 16px 25px;
     font-weight: 600;
     letter-spacing: 1px;
+    font-size: 13px;
   }
 }
 
