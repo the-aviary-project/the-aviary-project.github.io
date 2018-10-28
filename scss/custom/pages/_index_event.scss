@@ -121,6 +121,26 @@
   }
 }
 
+.btn-get-tickets-t {
+  border: 2px solid #0D152C;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  padding: 16px 50px;
+  border-radius: 60px;
+  color: #0D152C;
+  display: inline-block;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+  text-decoration: line-through;
+
+  @include transition(all .2s);
+
+  @media(max-width: 997px) {
+    margin-bottom: 20px;
+    padding: 16px 50px;
+  }
+}
+
 .event-intro {
   margin-top: 180px;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
@@ -337,13 +357,31 @@
     margin-bottom: 15px;
   }
 
+  .ticket-title-t {
+    text-align: center;
+    font-size: 29px;
+    margin-bottom: 15px;
+    text-decoration: line-through;
+  }
+
   .title-time {
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
     margin-top: 3px;
     color: #FFB303;
     font-weight: 800;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
+  }
+
+  .title-time-tables {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 3px;
+    color: #FFB303;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-shadow: .5px 0px #0D152C;
+    text-decoration: line-through;
   }
 
   h5 {
