@@ -271,20 +271,6 @@
 
       @include transition(all .4s);
 
-      a {
-        font-size: 18px;
-        text-align: center;
-        margin: 0 3px;
-        position: relative;
-        top: 52px;
-        width: 25px;
-        height: 25px;
-        display: inline-block;
-        background: #fff;
-        border-radius: 50%;
-        color: rgba(56, 64, 74, 1);
-      }
-
       img {
         position: absolute;
         top: 0;
