@@ -1,5 +1,6 @@
 .index-intro-header {
   padding-top: 210px;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
   @media(max-width: 991px) {
     padding-top: 100px;
@@ -85,8 +86,9 @@
 }
 
 .index-intro-features {
-  margin-top: 140px;
+  margin-top: 80px;
   text-align: center;
+  font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 
   @media(max-width: 767px) {
     margin-top: 90px;
@@ -99,7 +101,7 @@
   i {
     display: inline-block;
     font-size: 54px;
-    color: #4e94f1;
+    color: #0d152c;
 
     &.ion-ios-infinite-outline {
       position: relative;
